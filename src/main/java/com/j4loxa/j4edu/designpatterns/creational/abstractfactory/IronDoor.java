@@ -1,0 +1,7 @@
+package com.j4loxa.j4edu.designpatterns.creational.abstractfactory;
+
+public class IronDoor implements Door {
+    public void getDescription() {
+        System.out.println("I am a iron door");
+    }
+}
