@@ -1,0 +1,7 @@
+.gradle
+.idea
+out
+gradle
+.DS_Store
+.idea/encodings.xml
+
