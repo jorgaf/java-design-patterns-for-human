@@ -14,8 +14,5 @@ public class Main {
         paypal.setSuccessor(bitcoin);
 
         bank.pay(259);
-
-
-
     }
 }

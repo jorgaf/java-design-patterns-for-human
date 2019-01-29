@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 public class ChatRoom implements ChatRoomMediator {
 
     @Override
-    public void showMessage(User user, String message) {
+    public void sendMessage(User user, String message) {
         LocalDateTime dateTime = LocalDateTime.now();
         System.out.printf("%s [%s]: %s\n",
                 dateTime.format(DateTimeFormatter.ofPattern("MMMM dd, H:mm")),

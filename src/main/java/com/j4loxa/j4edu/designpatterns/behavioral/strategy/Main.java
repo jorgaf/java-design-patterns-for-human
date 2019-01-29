@@ -16,6 +16,5 @@ public class Main {
         for (var nro : unsortedArray2) {
             System.out.println(nro);
         }
-
     }
 }
